@@ -18,6 +18,8 @@ body{
     position: relative;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
 #navegação{
     display: flex;
@@ -25,22 +27,21 @@ body{
     margin-left: 50%;
     padding-top: 30px;
     position: absolute;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
 }
 .topico{
     padding-left: 50px;
 }
 .link{
     text-decoration: none;
-    color: white;
-
+    color: rgb(0, 0, 0);
 }
 #logo{
     position: absolute;
 }
 #principal{
-    height: 250px;
+    height: fit-content;
     margin-top: 400px;
     position: relative;
     background-color: rgb(255, 166, 0);
@@ -54,5 +55,6 @@ body{
 #imagem{
     position: absolute;
     z-index: 1;
-    margin-left: 100px;
+    margin-left: 5%;
+    width: 40%;
 }
