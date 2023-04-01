@@ -28,6 +28,7 @@ nav::-webkit-scrollbar-thumb{
 }
 header{
     display: flex;
+    position: static;
 }
 nav{
     list-style: none;
@@ -42,14 +43,14 @@ nav{
     overflow-x: scroll;
 }
 .topico{
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 35px;
 }
 .link{
     text-decoration: none;
     color: #2e4a48;
 }
-section{
+#post{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -58,7 +59,69 @@ section{
     border-radius: 20px;
     height: fit-content;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #martin{
     margin-left: 25%;
+}
+.textinfo{
+    width: 200px;
+    pad: 5px;
+    border-radius: 10px;
+    height: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: #d36f31 solid 2px;
+    background-color: #edf9f5;
+}
+#sign-up{
+    background-color: #2e4a48;
+    border-radius: 0 20px 20px 0;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 10%;
+    border: #d36f31 solid 5px;
+    color: #d36f31;
+    font-size: smaller;
+    text-align: center;
+    border-left: dashed #d36f31 2.5px;
+}
+#login{
+    background-color: #2e4a48;
+    border-radius: 20px 0 0 20px;
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+    margin-top: 10%;
+    border: #d36f31 solid 5px;
+    color: #d36f31;
+    font-size: smaller;
+    text-align: center;
+    border-right: dashed #d36f31 2.5px;
+}
+#info{
+    margin-top: 50%;
+}
+#loginsign{
+    display: flex;
+    margin-left: 27%;
+    width: fit-content;
+}
+.botão{
+    background-color: #d36f31;
+    color: #edf9f5;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    border-radius: 10px;
+    margin: 2px;
+    border: #2e4a48 solid 2px;
+}
+.titulo{
+    border-bottom: #d36f31 solid 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
